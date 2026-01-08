@@ -19,6 +19,7 @@ html, body{
     box-sizing: border-box;
 }
 
+/* Art Portfolio */
 .header{
     height: 9vh;
     font-size:19px;
@@ -29,6 +30,7 @@ html, body{
     color: whitesmoke;
 }
 
+/* Navigation bar */
 .nav a{
     color: whitesmoke;
     text-decoration: none;
@@ -56,6 +58,7 @@ html, body{
     font-style: italic;
 }
 
+/* subheadings */
 h3{
     top: 70px;
     font-size: 1.5rem;
@@ -67,6 +70,7 @@ h3{
     
 }
 
+/* About section */
 h2{
     display: block;
     color: rgb(255, 169, 49);
@@ -101,6 +105,7 @@ p{
 }
 
  
+/* gallery images with responsive layout */
 .row{
     display: flex;
     flex-wrap: wrap;
