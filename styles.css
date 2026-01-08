@@ -1,0 +1,143 @@
+html, body{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    font-family: "Momo Trust Display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: whitesmoke;
+    
+}
+
+.momo-trust-display-regular {
+  font-family: "Momo Trust Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.header{
+    height: 9vh;
+    font-size:19px;
+    background-color: #2b4355;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 90px;
+    color: whitesmoke;
+}
+
+.nav a{
+    color: whitesmoke;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px 25px;
+    font-size: 17px;
+}
+
+.nav{
+    position: sticky;
+    top: 0;
+    background-color: #082338;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 100;
+    padding-right: 4px;
+    padding-top: 5px;
+}
+
+.nav a:hover{
+    background-color: #f8b568;
+    border-radius: 5px 5px 0 0;
+    opacity: 90%;
+    color: black;
+    font-style: italic;
+}
+
+h3{
+    top: 70px;
+    font-size: 1.5rem;
+    padding: 10px;
+    padding-left:29px;
+    margin: 0;
+    scroll-margin-top: 70px;
+    background-color: #9cd3d3a9;
+    
+}
+
+h2{
+    display: block;
+    color: rgb(255, 169, 49);
+    font-size: 5rem;
+}
+p{
+    display: block;
+}
+
+.first{
+    width: 30%;
+    height: 30%;
+    margin: 0 50px 0 0;
+    clip-path: ellipse(100% 100% at left);
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    
+}
+
+.intro{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: nowrap;
+}
+
+ 
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.col{
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.col img{
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    box-shadow: 0 5px 5px 1px grey;
+}
+
+@media screen and (max-width: 800px){
+    .col{
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .col{
+        flex: 100%;
+        max-width: 100%;
+    }
+    .content h2{
+        font-size: 200%;
+    }
+    .content{
+        margin: 10px 19px 10px 5px;
+        padding-left: 0
+        
+    }
+}
