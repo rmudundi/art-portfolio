@@ -1,4 +1,5 @@
 # art-portfolio
+Github Pages Link: https://rmudundi.github.io/art-portfolio/
 - Used HTML5 and CSS to build a responsive practice portfolio
 - Self-learned Responsive Web Design through freeCodeCamp and W3Schools
 
